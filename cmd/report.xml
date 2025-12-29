@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="26">
+	<testsuite name="github.com/k1LoW/runn/cmd" tests="26" failures="0" errors="0" id="0" hostname="tatsuyanoAir.lan" time="3.713" timestamp="2025-12-29T13:25:51+09:00">
+		<testcase name="TestFmtCommand" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestFmtCommand/format_file_to_stdout" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestFmtCommand/no_arguments" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestFmtCommand/non-existent_file" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestFmtCommandOutput" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestFmtCommandWriteOption" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestLintCommand" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestLintCommand/valid_yaml_file" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestLintCommand/invalid_yaml_file" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestLintCommand/multiple_valid_files" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestLintCommand/no_arguments" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestLintCommand/non-existent_file" classname="github.com/k1LoW/runn/cmd" time="0.000"></testcase>
+		<testcase name="TestFmtE2E_Output" classname="github.com/k1LoW/runn/cmd" time="0.690"></testcase>
+		<testcase name="TestFmtE2E_WriteOption" classname="github.com/k1LoW/runn/cmd" time="0.040"></testcase>
+		<testcase name="TestFmtE2E_InvalidFile" classname="github.com/k1LoW/runn/cmd" time="0.040"></testcase>
+		<testcase name="TestFmtE2E_NonExistentFile" classname="github.com/k1LoW/runn/cmd" time="0.040"></testcase>
+		<testcase name="TestLintE2E_ValidFiles" classname="github.com/k1LoW/runn/cmd" time="0.070"></testcase>
+		<testcase name="TestLintE2E_ValidFiles/valid_runbook" classname="github.com/k1LoW/runn/cmd" time="0.040"></testcase>
+		<testcase name="TestLintE2E_ValidFiles/formatted_runbook" classname="github.com/k1LoW/runn/cmd" time="0.030"></testcase>
+		<testcase name="TestLintE2E_InvalidFiles" classname="github.com/k1LoW/runn/cmd" time="0.130"></testcase>
+		<testcase name="TestLintE2E_InvalidFiles/invalid_indent" classname="github.com/k1LoW/runn/cmd" time="0.030"></testcase>
+		<testcase name="TestLintE2E_InvalidFiles/invalid_colon" classname="github.com/k1LoW/runn/cmd" time="0.030"></testcase>
+		<testcase name="TestLintE2E_InvalidFiles/invalid_quote" classname="github.com/k1LoW/runn/cmd" time="0.030"></testcase>
+		<testcase name="TestLintE2E_InvalidFiles/invalid_yaml_syntax" classname="github.com/k1LoW/runn/cmd" time="0.030"></testcase>
+		<testcase name="TestLintE2E_NonExistentFile" classname="github.com/k1LoW/runn/cmd" time="0.030"></testcase>
+		<testcase name="TestLintE2E_MultipleFiles" classname="github.com/k1LoW/runn/cmd" time="0.060"></testcase>
+	</testsuite>
+</testsuites>
