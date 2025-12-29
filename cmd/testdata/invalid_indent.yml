@@ -1,0 +1,9 @@
+desc: インデントエラー
+runners:
+  req: https://example.com
+steps:
+  - req:
+      /users:
+        get:
+          body: null
+   bad_indent: here
