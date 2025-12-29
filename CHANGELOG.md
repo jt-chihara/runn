@@ -1,3 +1,7 @@
+## [v1.2.0](https://github.com/jt-chihara/runn/commits/v1.2.0) - 2025-12-29
+### Other Changes
+- add fmt&lint by @jt-chihara in https://github.com/jt-chihara/runn/pull/1
+
 ## [v1.2.0](https://github.com/k1LoW/runn/compare/v1.1.2...v1.2.0) - 2025-12-29
 ### New Features 🎉
 - feat: add exec.env option for exec runner by @k1LoW in https://github.com/k1LoW/runn/pull/1371
